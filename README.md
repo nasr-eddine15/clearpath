@@ -5,5 +5,5 @@
 #script is not taking in the string and integer parameters and doesnt return expected stdout
 
 #TO RUN
-#npm i then npm start
-#cd to frontend/ and run npm i then npm start
+#npm i then npm start to run the server
+#cd to frontend/ and run npm i then npm start to run the react app
