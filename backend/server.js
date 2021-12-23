@@ -84,6 +84,7 @@ app.post("/api/uploadForm", upload.single("myFile"), (req, res) => {
     const int = req.body.integer;
     const str = req.body.string;
     const cookie = req.cookies.clearpath;
+    console.log(cookie);
     const folderName = "./frontend/public/" + cookie + "/";
     const fileName = req.file.filename;
     try {
